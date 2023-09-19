@@ -21,6 +21,11 @@
 //  yaradib, adini vermesek onun icerisinde 'arguments' olaraq cagira bilerik. ya da bir ad versek
 // meselen const letter(str){
 //burada stri icinde ...str olaraq islede bilerik. }
+// IIFE cagrildigi yerdeki basqa kodlarla elaqeni legv eder ve derhal isleyer
+// (function() {
+//     let message = "salam";
+//     console.log(message); // "salam" i derhal verer
+//   })(); // IIFE derhal cagirar.
 // --------------------------------------------------------------------------------------------------------------------
 // heap and stack
 // depolamaq ucun iki temel yaddas adidir.stack da qisa omurluler saxlanilir,funkisya,deyiskenler
